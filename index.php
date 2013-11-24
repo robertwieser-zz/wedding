@@ -53,47 +53,9 @@ if ( !isset($_SESSION) ) session_start();
 </head>
 <body class="home wood">
 
-	<!-- Navigation -->
-	<nav id="primary_nav">
-		<div class="menu-button">Menu <i class="float_right icon-chevron-down icon-large"></i></div>	
-		<ul class="responsive_menu" role="navigation">
-			<li class="current"><a href="index.php">Home</a></li>
-			<li><a href="about.html">Our Story</a></li>
-			<li><a href="wedding.html">Wedding</a></li>
-			<li><a href="gallery-singles-large.html">Gallery</a>
-				<ul>
-					<li><a href="gallery-singles-large.html">2-column gallery</a></li>
-					<li><a href="gallery-singles-medium.html">4-column gallery</a></li>
-					<li><a href="gallery-singles-thumbnails.html">6-column gallery</a></li>					
-					<li><a href="gallery-albums-large.html">2-column album gallery</a></li>
-					<li><a href="gallery-albums-medium.html">3-column album gallery</a></li>
-				</ul>
-			</li>
-                        <!--
-			<li><a href="elements.html">Features</a>
-				<ul>					
-					<li><a href="elements.html">Elements</a></li>
-					<li><a href="columns.html">Columns</a></li>			
-					<li><a href="page-fullwidth.html">Fullwidth page</a></li>
-					<li><a href="page-with-sidebar.html">Page with sidebar</a></li>
-				</ul>
-			</li>
-                        -->
-			<li>
-				<a href="contact.php">Forms</a>
-				<ul>
-					<li><a href="contact.php">Contact form</a></li>
-					<li><a href="rsvp.php">RSVP</a></li>							
-				</ul>
-			</li>
-			<li><a href="blog.html">Blog</a>
-				<ul>
-					<li><a href="blog-single.html">Single blog post</a></li>
-				</ul>
-			</li>
-		</ul>
-	</nav>
-	<!-- End navigation -->
+<?php
+    include 'navigation.php';
+?>
 
 	<div id="container" class="wrapper">		
 
