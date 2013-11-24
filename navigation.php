@@ -3,7 +3,7 @@
 		<div class="menu-button">Menu <i class="float_right icon-chevron-down icon-large"></i></div>
 		<ul class="responsive_menu" role="navigation">
 			<li><a href="index.php">Home</a></li>
-			<li><a href="wedding.html">Wedding</a></li>
+			<li><a href="wedding.php">Wedding</a></li>
 			<li><a href="accommodation.php">Accommodation</a></li>
 			<li><a href="gallery-singles-large.html">Gallery</a>
 				<ul>
