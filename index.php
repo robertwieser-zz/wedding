@@ -123,7 +123,7 @@ if ( !isset($_SESSION) ) session_start();
 
 			<!-- About us / Our story -->
 			<div id="about" class="column_33 column_first divider">
-				<h2 class="section_label">Our Story</h2>
+				<h2 class="section_label">Accommodation</h2>
 
 				<h4 class="alt smaller"><strong>Robert & Adele</strong></h4>
 				<p>Ovid quatur rese corro blanis nes susaperor re maio moditib usciet ipsum dolo culparit maio. Et ipsant por aut ea nonseque pore quiaepr oribus seniaec tateces tessequide excerferciis cuptatem aut a saniae dolut eos dolores peliquod Ovid quatur rese corro blanis nes susaperor re maio moditib usciet ipsum dolo culparit maio. </p>
